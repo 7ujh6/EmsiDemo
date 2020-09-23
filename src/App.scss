@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #eff0f1;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .App-logo {
@@ -36,3 +39,23 @@
     transform: rotate(360deg);
   }
 }
+
+.cards-container 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+
+    min-height: 50vh;
+    min-width: 85vw;
+    margin: 0px 0px 0px 5%;
+    padding-top: 5%;
+
+}
+
+.spinner-container 
+{
+    padding-top: 15%
+}
+
+

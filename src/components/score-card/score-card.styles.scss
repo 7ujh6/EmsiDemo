@@ -1,0 +1,82 @@
+.score-card 
+{
+    position: relative;
+    max-width: 400px;
+    min-height: 300px;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.location-container 
+{
+    background-color: #EBF5FB ;
+}
+
+.info-container
+{
+    width: 300px;
+    margin-left: 5%;
+}
+
+.card-body
+{
+    margin: 0px 10%;
+    text-align: left;
+    padding-bottom: 5%;
+}
+
+.card-header 
+{
+    display: flex;
+    justify-content: space-center;
+    margin-top: 10%;
+    font-size: 12px;
+    text-align: left;
+}
+
+.card-header-numbers 
+{
+    color: #335EFF;
+    font-weight: bold;
+}
+
+.horizontal-bar
+{
+    width: 80%;
+    height: 3px;
+    background: #eff0f1;
+    margin: 5% 10%;
+    border-radius: 5%;
+}
+
+.school-logo-container
+{
+   max-width: 100px;
+   max-height: 100px;
+   margin: 0 10px 0 10px; 
+}
+
+.subheading
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+}
+
+.header-element 
+{
+    margin-bottom: 2%;
+}
+
+.body-element {
+    margin-bottom: 1px;
+}
+
+.progress-bar 
+{
+    display: inline-block;
+    margin-left: 3px;
+    border-radius: 20%;
+    height: 5px;
+    width: 50%;
+}
